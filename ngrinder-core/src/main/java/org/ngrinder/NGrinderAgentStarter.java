@@ -48,7 +48,7 @@ public class NGrinderAgentStarter implements AgentConstants, CommonConstants {
 
 	private static final Logger LOG = LoggerFactory.getLogger("starter");
 
-	private static final String NETWORK_ADDRESS_CACHE_TTL_SECOND = "5";
+	private static final String NETWORK_ADDRESS_CACHE_TTL_SECOND = "3";
 
 	private AgentConfig agentConfig;
 
