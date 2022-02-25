@@ -154,7 +154,7 @@ public class NGrinderSecurityManager extends SecurityManager {
 		// add controller host
 		allowedHost.add(consoleIP);
 		try {
-			java.security.Security.setProperty("networkaddress.cache.ttl", "600");
+			java.security.Security.setProperty("networkaddress.cache.ttl", "6000");
 		} catch (Exception e) {
 			// Fall through
 		}
