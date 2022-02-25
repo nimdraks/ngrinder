@@ -64,7 +64,7 @@ public class NameStore {
 			singleton = new NameStore();
 			singleton.initFromSystemProperty();
 			try {
-				java.security.Security.setProperty("networkaddress.cache.ttl", "3");
+				java.security.Security.setProperty("networkaddress.cache.ttl", "1");
 			} catch (Exception e) {
 				noOp();
 			}
